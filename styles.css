@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6b6262;
+}
+
+header {
+    background-color: #d0a60d;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc00;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+header{
+background-color: black;
+padding: 20px ;
+height: 300px;
+text-align: center;
+background-image: url(2.jpg);
+background-size: 100%;
+background-position: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top:40px;
+}
+header .mobile{
+    display: none;
+}
+
+header .logo a{
+    background-image: url("tyttttttttttt.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 300px;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent:-999999px;
+    top: -30px;
+     width: 200px;
+
+
+}
+
+.features {
+    background:rgb(202, 201, 201);
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.features figure{
+     margin: auto;
+     text-align:center;
+     text-transform: uppercase;
+    width: 200px;
+    color: black;
+}
+.features figure img{
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: black;
+    border: 1px solid white;
+}
+ul{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+@media screen and (max-width:626px) {
+    header {
+        height: 200px;
+    }
+    header .mobile{
+         display: inline-block;
+    }
+    header .desktop{
+        display: none;
+}
+}
+footer{
+    background: black;
+    padding: 20px 20px;
+    font-size: 12px;
+    color:gray;
+    padding: 10px 20px;
+    text-align: center;
+}
+.location {
+    background-color: #6c5e5e;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px green;
+}
+.order-button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 15px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.order-button:hover {
+    background-color: #e6b800;
+}

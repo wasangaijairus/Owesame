@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li class="mobile"><a href="Location.html">Location</a></li>
+                <li class="mobile"><a href="Contacts.html">Contacts</a></li>
+                <li class="logo"><a href="index.html">jairus bakery logo</a></li>
+                <li class="desktop"><a href="Location.html">Location</a></li>
+                <li class="desktop"><a href="Contacts.html">Contacts</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Menu</h2>
+        <p>Delicious treats made fresh daily!</p>
+
+        <div class="menu-item">
+            <h3>Chocolate Cake</h3>
+            <section class="features">
+                <figure>
+                  <img src="chocolete cake.jpg"alt="Amazing sweet bread"> 
+                  <button class="order-button">Order Now</button>
+              </figure>
+             
+            <p>Rich and moist chocolate cake layered with creamy chocolate frosting.</p>
+            <p>Price: $25.00</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Vanilla Cupcakes</h3>
+            <section class="features">
+                <figure>
+                  <img src="vanilla cupcakes.jpg"alt="Amazing sweet bread">
+                  <button class="order-button">Order Now</button>  
+              </figure>
+             
+            <p>Light and fluffy vanilla cupcakes topped with vanilla buttercream.</p>
+            <p>Price: $15.00 (dozen)</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Cheese Croissant</h3>
+            <section class="features">
+                <figure>
+                  <img src="cheese croissant.jpg"alt="Amazing sweet bread"> 
+                  <button class="order-button">Order Now</button> 
+              </figure>
+              
+            <p>Flaky croissant filled with creamy cheese, perfect for breakfast.</p>
+            <p>Price: $3.50 each</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Fruit Tart</h3>
+            <section class="features">
+                <figure>
+                  <img src="fruit tart.jpg"alt="Amazing sweet bread">
+                  <button class="order-button">Order Now</button>  
+                 </figure>
+             
+            <p>Delicious tart filled with pastry cream and topped with fresh seasonal fruits.</p>
+            <p>Price: $20.00</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Brownies</h3>
+            <section class="features">
+                <figure>
+                  <img src="brownies.jpg"alt="Amazing sweet bread">  
+                  <button class="order-button">Order Now</button>
+              </figure>
+             
+            <p>Fudgy brownies with a rich chocolate flavor, perfect for chocolate lovers.</p>
+            <p>Price: $12.00 (dozen)</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;123 main street  Nansana Ganda-kyebando, IL0.055555 kuchitaka Indoor.</p>
+    </footer>
+    <script>
+        const orderButtons = document.querySelectorAll('.order-button');
+    
+        orderButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Thank you for your order! We will contact you shortly.');
+                // You can also redirect to an order form or another page here
+                // window.location.href = 'order.html'; // Uncomment to redirect
+            });
+        });
+    </script>
+</body>
+</html>
